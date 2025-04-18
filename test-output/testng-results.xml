@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-18T11:34:18 IST" name="Failed suite [Suite]" finished-at="2025-04-18T11:34:28 IST" duration-ms="9628">
+    <groups>
+    </groups>
+    <test started-at="2025-04-18T11:34:18 IST" name="Test(failed)" finished-at="2025-04-18T11:34:28 IST" duration-ms="9628">
+      <class name="testcases.TC002_LoginTest">
+        <test-method is-config="true" signature="launch_Application()[pri:0, instance:testcases.TC002_LoginTest@3cd3e762]" started-at="2025-04-18T11:34:18 IST" name="launch_Application" finished-at="2025-04-18T11:34:21 IST" duration-ms="3254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_Application -->
+        <test-method signature="login_application()[pri:0, instance:testcases.TC002_LoginTest@3cd3e762]" started-at="2025-04-18T11:34:21 IST" name="login_application" finished-at="2025-04-18T11:34:23 IST" duration-ms="1574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_application -->
+        <test-method is-config="true" signature="close_Application()[pri:0, instance:testcases.TC002_LoginTest@3cd3e762]" started-at="2025-04-18T11:34:23 IST" name="close_Application" finished-at="2025-04-18T11:34:23 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Application -->
+      </class> <!-- testcases.TC002_LoginTest -->
+      <class name="testcases.TC001_AccountRegistration">
+        <test-method is-config="true" signature="launch_Application()[pri:0, instance:testcases.TC001_AccountRegistration@6ed3ccb2]" started-at="2025-04-18T11:34:23 IST" name="launch_Application" finished-at="2025-04-18T11:34:25 IST" duration-ms="1986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_Application -->
+        <test-method signature="acc_registration()[pri:0, instance:testcases.TC001_AccountRegistration@6ed3ccb2]" started-at="2025-04-18T11:34:25 IST" name="acc_registration" finished-at="2025-04-18T11:34:28 IST" duration-ms="2136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acc_registration -->
+        <test-method is-config="true" signature="close_Application()[pri:0, instance:testcases.TC001_AccountRegistration@6ed3ccb2]" started-at="2025-04-18T11:34:28 IST" name="close_Application" finished-at="2025-04-18T11:34:28 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Application -->
+      </class> <!-- testcases.TC001_AccountRegistration -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>
