@@ -18,7 +18,7 @@ public class TC001_AccountRegistration extends BaseTest{
 		Register_Page register=new Register_Page(driver);
 		register.first_name("MalleswariMum");
 		register.last_name("Pondugula");
-		register.email("malleswarimummy@gmail.com");
+		register.email("malleswarimummy3@gmail.com");
 		register.mobilenum("6281610189");
 		register.Password("malli@345");
 		register.c_password("malli@345");
