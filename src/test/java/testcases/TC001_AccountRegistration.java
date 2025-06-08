@@ -10,7 +10,7 @@ import PageObjects.Register_Page;
 
 public class TC001_AccountRegistration extends BaseTest{
 	
-	@Test()
+	@Test(enabled=True)
 	public void acc_registration() {
 		HomePage home=new HomePage(driver);
 		home.my_acc_btn();
